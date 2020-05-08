@@ -1,0 +1,22 @@
+/**This centers the title over the image**/
+#title{
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.image{
+    position: relative;
+    width: 100%;
+}
+
+#underline{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    border-width: 2px;
+    border-color: white;
+}
