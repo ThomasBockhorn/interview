@@ -22,9 +22,9 @@
 </head>
 <body>
     <div id="app">
-        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-white mb-0 pb-0">
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-white">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a id="nav-item" class="navbar-brand ml-0 pl-0" href="{{ url('/') }}">
                    <img src="{{ asset('images/bemo-logo2.png') }}" alt="BeMo logo" width="150px" height="90px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li><a href="/contact" class="nav-link text-dark">Contact Us</a></li>
+                        <li><a id="nav-item" href="/contact" class="nav-link text-dark">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
