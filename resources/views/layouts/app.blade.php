@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white mb-0 pb-0">
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-white mb-0 pb-0">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                    <img src="{{ asset('images/bemo-logo2.png') }}" alt="BeMo logo" width="150px" height="90px">
