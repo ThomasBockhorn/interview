@@ -87,6 +87,14 @@
                   Log Out
                 </a>
               </div>
+              <div>
+                <h3> Text Editor </h3>
+                <form  method="post" class="pt-5">
+                    @csrf
+                    <textarea name="description" id="description" class="textarea"></textarea>
+                    <button class="btn btn-sm btn-outline-secondary" type="submit" formmethod="post">Submit</button>
+                </form>
+              </div>
             </div>
           </main>
         </div>
